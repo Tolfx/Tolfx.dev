@@ -7,6 +7,11 @@
 body,
 html {
     font-family: 'Staatliches', cursive;
+    background: var(--wallpaper) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -30,11 +35,6 @@ html {
 
 #details_container {
     margin: 5% 5% 0% 5%;
-}
-
-body,
-#details::before {
-  background: var(--wallpaper) 0 / cover fixed;
 }
 
 #avatar {
