@@ -41,6 +41,11 @@ html {
     height: 15rem;
     border-radius: 0px 8px 8px 0px;
     float: right;
+    transition: transform .2s;
+}
+
+#avatar:hover {
+    
 }
 
 .grid-container {
