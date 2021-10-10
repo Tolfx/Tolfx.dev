@@ -1,3 +1,6 @@
+let queryString = window.location.search;
+let urlParams = new URLSearchParams(queryString);
+let page_type = urlParams.get('bg');
 const imagesRange = [
     "1.jpg",
     "2.jpg",
@@ -13,5 +16,10 @@ const imagesRange = [
     "12.jpg",
     "13.jpg",
     "14.png",
+    "15.gif",
+    "16.jpg",
+    "17.gif",
 ];
-document.documentElement.style.setProperty('--wallpaper', `url(../images/backgrounds/${imagesRange[Math.floor(Math.random()*imagesRange.length)]})`);
+
+const bg = page_type ? page_type : imagesRange[Math.floor(Math.random()*imagesRange.length)]
+document.documentElement.style.setProperty('--wallpaper', `url(../images/backgrounds/${bg})`);
