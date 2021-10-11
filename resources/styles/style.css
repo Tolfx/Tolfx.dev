@@ -52,8 +52,7 @@ html
 
 #avatar:hover
 {
-    border-radius: 8px 8px 8px 8px;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .grid-container

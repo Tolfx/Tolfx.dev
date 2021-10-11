@@ -16,7 +16,7 @@ avatar.addEventListener("click", () => {
     clicked = !clicked;
 });
 
-// VanillaTilt.init(document.querySelector("#avatar"), {
-//     max: 25,
-//     speed: 500
-// });
+VanillaTilt.init(document.querySelector("#avatar"), {
+    max: 25,
+    speed: 300
+});
