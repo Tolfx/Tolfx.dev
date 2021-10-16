@@ -20,6 +20,20 @@ html
     padding: 0;
 }
 
+#company_logo
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1.2rem;
+    transition: transform .2s;
+}
+
+#company_logo:hover
+{
+    transform: scale(1.05);
+}
+
 #container
 {
     display: flex;
