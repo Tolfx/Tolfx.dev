@@ -1,7 +1,6 @@
 const avatar = document.getElementById("avatar");
 let clicked = false;
 avatar.addEventListener("click", () => {
-    // console.log(clicked)
     const n = Math.floor(Math.random() * 100);
     // 20% to get this
     if(!clicked && n <= 20)
